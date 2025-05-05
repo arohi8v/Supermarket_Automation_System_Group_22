@@ -1,3 +1,25 @@
+# Supermarket Automation System – Group 22
+
+A comprehensive full-stack Supermarket Automation System built as part of our Software Engineering course project. It streamlines sales, inventory management, and reporting, with distinct roles for administrators and customers.
+
+---
+
+## Project Structure
+
+```
+Supermarket_Automation_System
+├── app/             # Core application pages and routing (Next.js)
+├── backend/         # API routes and backend logic
+├── components/      # Reusable UI components
+├── coverage/        # Jest test coverage reports
+├── database/        # Database schemas and seed data
+├── hooks/           # Custom React hooks
+├── lib/             # Utility functions
+├── public/          # Static assets (images, icons)
+├── styles/          # Tailwind CSS and global styles
+├── tests/           # Unit and integration tests
+└── testselenium.py  # Selenium end-to-end test script
+```
 
 ---
 
@@ -34,3 +56,37 @@ pnpm install
 
 # Start development server
 pnpm dev
+```
+
+---
+
+## Running Tests
+
+### Unit Tests (Jest)
+
+```bash
+pnpm test
+```
+
+### End-to-End Tests (Selenium)
+
+```bash
+python testselenium.py
+```
+
+---
+
+## Production Build
+
+```bash
+# Build the app
+pnpm build
+
+# Start production server
+pnpm start
+```
+
+
+## License
+
+This project is part of an academic assignment for educational purposes only.
