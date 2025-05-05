@@ -27,7 +27,9 @@ Supermarket_Automation_System
 
 - Next.js – React framework with SSR support  
 - Tailwind CSS – Utility-first styling  
-- TypeScript – Static typing for JavaScript  
+- TypeScript – Static typing for JavaScript
+- Sql - Database
+- Java - Backend setup
 - Jest – Unit testing  
 - Selenium – Browser automation for E2E testing  
 - pnpm – Fast package manager
