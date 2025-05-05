@@ -1,4 +1,4 @@
-# Supermarket Automation System – Group 22
+#Supermarket Automation System – Group 22
 
 This project is a comprehensive Supermarket Automation System developed as part of our Software Engineering course. It facilitates efficient sales and inventory management, providing a seamless experience for both administrators and customers.
 
