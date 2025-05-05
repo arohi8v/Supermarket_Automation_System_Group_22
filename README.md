@@ -87,6 +87,3 @@ pnpm start
 ```
 
 
-## License
-
-This project is part of an academic assignment for educational purposes only.
