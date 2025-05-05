@@ -57,5 +57,23 @@ pnpm install
 # 3. Run the development server
 pnpm dev
 
+✅ Running Tests
+🧪 Unit Tests (Jest)
+bash
+Copy code
+pnpm test
+🌐 End-to-End Tests (Selenium)
+bash
+Copy code
+python testselenium.py
+📦 Production Build
+bash
+Copy code
+# Build the app
+pnpm build
+
+# Start production server
+pnpm start
+
 
 
