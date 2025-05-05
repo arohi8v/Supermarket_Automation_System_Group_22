@@ -1,65 +1,61 @@
-#Supermarket Automation System – Group 22
+# 🛒 Supermarket Automation System – Group 22
 
-This project is a comprehensive Supermarket Automation System developed as part of our Software Engineering course. It facilitates efficient sales and inventory management, providing a seamless experience for both administrators and customers.
+A comprehensive full-stack Supermarket Automation System built as a part of our Software Engineering course project. It streamlines sales, inventory management, and reporting, with distinct roles for administrators and customers.
 
-## Project Structure
+---
 
-- `app/` – Core application logic and routing.
-- `backend/` – Server-side operations and API endpoints.
-- `components/` – Reusable UI components.
-- `coverage/` – Test coverage reports.
-- `database/` – Database schemas and seed data.
-- `hooks/` – Custom React hooks.
-- `lib/` – Utility functions and libraries.
-- `public/` – Static assets like images and icons.
-- `styles/` – Global and component-specific styles.
-- `testselenium.py` – Selenium-based end-to-end tests.
-- `__tests__/` – Unit and integration tests.
+## 📁 Project Structure
 
-## Tech Stack Used
+📦Supermarket_Automation_System
+├── app/ # Core application pages and routing (Next.js)
+├── backend/ # API routes and backend logic
+├── components/ # Reusable UI components
+├── coverage/ # Jest test coverage reports
+├── database/ # Database schemas and seed data
+├── hooks/ # Custom React hooks
+├── lib/ # Utility functions
+├── public/ # Static assets (images, icons)
+├── styles/ # Tailwind CSS and global styles
+├── tests/ # Unit and integration tests
+└── testselenium.py # Selenium end-to-end test script
 
-- **Next.js** – React framework for server-side rendering.
-- **Tailwind CSS** – Utility-first CSS framework.
-- **TypeScript** – Typed superset of JavaScript.
-- **Jest** – JavaScript testing framework.
-- **Selenium** – Automated browser testing.
-- **pnpm** – Fast, disk space-efficient package manager.
+---
 
-## Getting Started
+## 💻 Tech Stack Used
 
-### Prerequisites
+- ⚛️ **Next.js** – React framework with SSR support  
+- 🎨 **Tailwind CSS** – Utility-first styling  
+- 🟦 **TypeScript** – Static typing for JavaScript  
+- 🧪 **Jest** – Unit testing  
+- 🌐 **Selenium** – Browser automation for E2E testing  
+- 📦 **pnpm** – Fast package manager
 
-The following needs to be installed before running the repository:
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+Ensure the following are installed on your system:
 
 - [Node.js](https://nodejs.org/) (v16 or later)
 - [pnpm](https://pnpm.io/) (v7 or later)
+- [Python](https://www.python.org/) (for Selenium tests)
 
-### Installation
+---
 
-1. **Clone the repository:**
-   git clone https://github.com/arohi8v/Supermarket_Automation_System_Group_22.git
-   cd Supermarket_Automation_System_Group_22
+### 📥 Installation
 
-2. **Install dependencies**
-   pnpm install
+```bash
+# 1. Clone the repo
+git clone https://github.com/arohi8v/Supermarket_Automation_System_Group_22.git
+cd Supermarket_Automation_System_Group_22
 
-3. **Run the development server**
-   pnpm dev
+# 2. Install dependencies
+pnpm install
 
-### Running Tests
-1. Unit Tests:
-   pnpm test
-
-2. End-to-End Tests with Selenium:
-   python testselenium.py
-
-### Build for Production
-To build the application for production:
-pnpm build
-
-To start the production server:
-pnpm start
-
+# 3. Run the development server
+pnpm dev
 
 
 
